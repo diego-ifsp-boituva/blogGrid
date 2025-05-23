@@ -1,0 +1,72 @@
+* { /*Reset*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Estilo para configurar logo*/
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+
+
+/*Layout Principal com Grid*/
+
+main {
+    display: grid;
+    grid-template-columns: 25% 75%; /*Colunas*/
+    width: 100%;
+    min-height: 100vh; /*viewport height*/
+}
+
+/*Configurando a figura, com Flexbox*/
+
+figure{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    background-color: #333;
+}
+
+/*Configurando Imagem*/
+.logo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+figcaption {
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+/*Configurando a seção da direita (section)*/
+
+section {
+    padding: 32px;
+    background-color: #333;
+}
+
+article {
+    border: 1px solid #f3dcdc;
+    border-radius: 10px;
+    padding: 24px;
+    margin-bottom: 24px;
+    background-color: #f3dcdc;
+}
+
+article h2 {
+    margin-bottom: 12px;
+}
+
+article p {
+    line-height: 1.5;
+}
